@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("#Ex1").hide();
 	$("#Ex2").hide();
-	$("img").hide();
+	//$("img").hide();
 	
 	$( "#Exercitiul1" ).click(function() {
 	$("#Ex1").show();
