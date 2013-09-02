@@ -117,6 +117,7 @@ td {
 }
 
 #tabelmare {
+	width:200px;
 	margin-left: 60px;
 	float: left;
 }
