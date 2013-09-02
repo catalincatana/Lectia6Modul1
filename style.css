@@ -118,15 +118,24 @@ td {
 
 #tabelmare {
 	width:200px;
-	margin-left: 60px;
+	margin-left: 100px;
 	float: left;
+	
 }
 
 #cerintatabel {
 	float: left;
+
 }
 
 .Checks {
 	height: 24px;
 	width: 20px;
+}
+.checks{
+ height:21px;
+ width: 20px;
+}
+#TrueFalse1,#TrueFalse2,#TrueFalse3,#TrueFalse4{
+cursor:pointer;
 }

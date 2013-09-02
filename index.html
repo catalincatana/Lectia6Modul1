@@ -6,6 +6,7 @@
 <script type="text/javascript" src="script.js"></script>
 <link type="text/css" href="style.css" rel='stylesheet'>
 <script type="text/javascript" src="jquery.autotab-1.1b.js"></script>
+<script type="text/javascript" src="UPBMate.js"></script>
 <title>Lectia 6 - Modul 1</title>
 </head>
 <body>
@@ -135,6 +136,19 @@
 	<div id="Ex2">
 		<div id="cerintatabel">
 			Completaţi tabelul alăturat.</br> Ce observaţi?
+			<div id="Ex2pcta">a)Ultima cifră a unui pătrat perfect poate fi:</div>
+			<span id="Ex2pctacata"></span>
+			<div id="Ex2pctb">b)Numerele care au ultima cifră </br>
+			<span id="Ex2pctbcata"></span></br>
+			nu sunt pătrate perfecte.</div>
+			<div id="Ex2pctc">
+			Stabiliţi valoarea de adevăr a proprietăţilor :</br>
+			"Orice număr a cărui ultimă cifră este una din cifrele 0,1, 4, 5, 6,9 este pătrat perfect." <table id="TrueFalse1" border="1"><tr><td>A</td><td id="redCata1"><span id="false1">F</span></td></table>
+			"Numărul 44 este un pătrat perfect." <table id="TrueFalse2" border="1"><tr><td>A</td><td id="redCata2"><span id="false2">F</span></td></table>
+			"Între două pătrate de numere consecutive nu mai există alt pătrat perfect." <table id="TrueFalse3" border="1"><tr><td id="redCata3"><span id="false3">A</span></td><td >F</td></table>
+			"Numerele 99 şi 66 nu sunt pătrate perfecte ".  <table id="TrueFalse4" border="1"><tr><td id="redCata4"><span id="false4">A</span></td><td >F</td></table>
+			
+			</div>
 		</div>
 		<table id="tabelmare" border="1" cellspacing="0" >
 			<tr>
@@ -146,7 +160,7 @@
 				<td class="numar">0</br>
 
 				</td>
-				<td class="numar"><input type="text" id="in0" size="1"
+				<td class="numar"><input type="text" id="in0cata" size="1"
 					maxlength="1"></br></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp; <span class="ultimacifra"
 					style="border-top: 1px solid white">0</span>
@@ -155,7 +169,7 @@
 			</tr>
 			<tr>
 				<td class="numar">1</td>
-				<td class="numar"><input type="text" id="in0" size="1"
+				<td class="numar"><input type="text" id="in1cata" size="1"
 					maxlength="1"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
 					class="ultimacifra">1</span>
@@ -163,7 +177,7 @@
 			</tr>
 			<tr>
 				<td class="numar">2</td>
-				<td class="numar"><input type="text" id="in0" size="1"
+				<td class="numar"><input type="text" id="in2cata" size="1"
 					maxlength="1"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">4</span>
@@ -171,7 +185,7 @@
 			</tr>
 			<tr>
 				<td class="numar">3</td>
-				<td class="numar"><input type="text" id="in0" size="1"
+				<td class="numar"><input type="text" id="in3cata" size="1"
 					maxlength="1"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">9</span>
@@ -179,202 +193,207 @@
 			</tr>
 			<tr>
 				<td class="numar">4</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in4cata" size="1"
+					maxlength="2"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">6</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">5</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in5cata" size="1"
+					maxlength="2"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">5</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">6</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in6cata" size="1"
+					maxlength="2"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">6</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">7</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in7cata" size="1"
+					maxlength="2"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">9</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">8</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in8cata" size="1"
+					maxlength="2"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">4</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">9</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in9cata" size="1"
+					maxlength="2"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
 					class="ultimacifra">1</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">10</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in10cata" size="1"
+					maxlength="3"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp; <span class="ultimacifra">0</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">11</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in11cata" size="1"
+					maxlength="3"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
 					class="ultimacifra">1</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">12</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in12cata" size="1"
+					maxlength="3"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">4</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">13</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in13cata" size="1"
+					maxlength="3"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">9</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">14</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in14cata" size="1"
+					maxlength="3"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">6</span>
 				</td>
 			</tr>
 			<tr>
 				<td class="numar">15</td>
-				<td class="numar"><input type="text" id="in0" size="1"
-					maxlength="1"></td>
+				<td class="numar"><input type="text" id="in15cata" size="1"
+					maxlength="3"></td>
 				<td class="numar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span class="ultimacifra">5</span>
 				</td>
 			</tr>
 		</table>
-		<table id="Verificari" border="1" cellspacing="0">
+		<table id="Verificari" border="0" cellspacing="0">
 			<tr class="Verificaricell">
 				<td class="Checks"></td>
 				<td class="Checks"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check1cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong1cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check2cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong2cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check3cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong3cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check4cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong4cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check5cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong5cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check6cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong6cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check7cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong7cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check8cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong8cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check9cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong9cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check10cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong10cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check11cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong11cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check12cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong12cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check13cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong13cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check14cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong14cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check15cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong15cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 			<tr class="Verificaricell">
-				<td class="Checks"><img id="check1" class="checks"
+				<td class="Checks"><img id="check16cata" class="checks"
 					src="check.png"></td>
-				<td class="Checks"><img id="wrong1" class="wrongs"
+				<td class="Checks"><img id="wrong16cata" class="wrongs"
 					src="wrong.png"></td>
 			</tr>
 		</table>
+		
 	</div>
+	<script>
+	UPBMate.createOneByOneInput("Ex2pctacata", [1,4,0,5,6,9], 6, {"color":"red"});
+	UPBMate.createOneByOneInput("Ex2pctbcata", [2,3,7,8], 4, {"color":"red"});
+	</script>
 </body>
 </html>
