@@ -18,7 +18,14 @@ td {
 	float: left;
 	display: inline-block;
 }
-
+#exB1 {
+	float: left;
+	display: inline-block;	
+}
+#checkSerbanRadio {
+	margin-top: 23px;
+	margin-left: -40px;
+}
 #curCubeu {
 	margin-top: 30px;
 	border: 1px solid black;
@@ -42,40 +49,40 @@ td {
 }
 
 #punctA {
-	
+	float: left;
+	display: inline-block;
 }
 
 #checkA {
-	float: left;
-	display: inline-block;
-	margin-left: 4%;
+	margin-left: 1%;
+	margin-top: 2%;
 }
 
-#red {
+.red {
 	border: 1px solid black;
 }
 
-#blue {
+.blue {
 	border: 1px solid black;
 }
 
-#orange {
+.orange {
 	border: 1px solid black;
 }
 
-#green {
+.green {
 	border: 1px solid black;
 }
 
-#pinkish {
+.pinkish {
 	border: 1px solid black;
 }
 
-#lightBlue {
+.lightBlue {
 	border: 1px solid black;
 }
 
-#brown {
+.brown {
 	border: 1px solid black;
 }
 /*
