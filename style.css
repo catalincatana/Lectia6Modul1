@@ -1,53 +1,131 @@
 @CHARSET "UTF-8";
+
 input {
 	color: red;
 }
+
 img {
 	height: 15px;
 	width: 15px;
 }
+
+td {
+	height: 10px;
+	width: 10px;
+}
+
+#exA1 {
+	float: left;
+	display: inline-block;
+}
+
+#curCubeu {
+	margin-top: 30px;
+	border: 1px solid black;
+}
+
 #ros {
 	font-weight: bold;
 	color: red;
 }
+
 #rosu {
 	color: red;
 }
+
 #verde {
 	color: green;
 }
+
 #undeline {
 	text-decoration: underline;
 }
+
 #punctA {
+	
 }
+
 #checkA {
 	float: left;
 	display: inline-block;
 	margin-left: 4%;
 }
-.numar{
-width:20px;
-height:20px;
-border-top: 0px solid white;
-border-bottom: 0px solid white;
-border-right:1px solid black;
-}
-.ultimacifra{
 
-background-color:#00FF00;
+#red {
+	border: 1px solid black;
 }
-.ucifra{
-width:200px;
+
+#blue {
+	border: 1px solid black;
 }
-#tabelmare{
-margin-left:60px;
-float:left;
+
+#orange {
+	border: 1px solid black;
 }
-#cerintatabel{
-float:left;
+
+#green {
+	border: 1px solid black;
 }
-.Checks{
-height:24px;
-width:20px;
+
+#pinkish {
+	border: 1px solid black;
+}
+
+#lightBlue {
+	border: 1px solid black;
+}
+
+#brown {
+	border: 1px solid black;
+}
+/*
+#red {
+	background-color: #DF0101;
+}
+#blue {
+	background-color: #013ADF;
+}
+#orange {
+	background-color: #FF8000;
+}
+#green {
+	background-color: #04B404;
+}
+#pinkish {
+	background-color: #F5D0A9;
+}
+#lightBlue {
+	background-color: #81F7F3;
+}
+#brown {
+	background-color: #61210B;
+}*/
+.numar {
+	width: 20px;
+	height: 20px;
+	border-top: 0px solid white;
+	border-bottom: 0px solid white;
+	border-right: 1px solid black;
+}
+
+.ultimacifra {
+	background-color: #00FF00;
+}
+
+.ucifra {
+	width: 200px;
+}
+
+#tabelmare {
+	margin-left: 60px;
+	float: left;
+}
+
+#cerintatabel {
+	float: left;
+}
+
+.Checks {
+	height: 24px;
+	width: 20px;
 }
